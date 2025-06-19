@@ -1,0 +1,534 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+body{
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.bebas100black{
+    font-family: BebasNeue;
+    font-size: 100px;
+    color: #333333;
+}
+
+.bebas48black{
+    font-family: BebasNeue;
+    font-size: 48px;
+    color: #333333;
+}
+
+.bebas32black{
+    font-family: BebasNeue;
+    font-size: 32px;
+    color: #333333;
+}
+
+.bebas20black{
+    font-family: BebasNeue;
+    font-size: 20px;
+    color: #333333;
+}
+
+.helvetica32black{
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color: #333333;
+}
+
+.helvetica32gray{
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color: #7F7F7F;
+}
+
+.helvetica20black{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+.helvetica20gray{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #7F7F7F;
+}
+
+.navbar{
+    position: fixed;
+    background-color: #FFDE67;
+    width: 100%;
+    top:0;
+    overflow: hidden;
+    height: 6vw;
+    z-index: 100;
+}
+
+.logo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 150px;
+}
+
+.navbar input[type=text]{
+    float: left;
+    height: 47px;
+    width: 620px;
+    background-color: #F9F9F9;
+    border: 1px solid #7F7F7F;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 15px;
+    margin-left: 60px;
+    padding-left: 16px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #7F7F7F
+}
+
+.searchbutton{
+    float: left;
+    height: 50px;
+    width: 50px;
+    background-color: #2C52B3;
+    border: 1px solid #7F7F7F;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.searchicon{
+    width: 20px;
+}
+
+.iconbar{
+    margin-left: 950px;
+}
+
+#homeicon{
+    float: left;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 46px;
+    cursor: pointer;
+}
+
+#hearticon{
+    float: left;
+    height: 26.72px;
+    margin-top: 28px;
+    margin-left: 34.5px;
+    cursor: pointer;
+}
+
+#basketicon{
+    float: left;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30.5px;
+    cursor: pointer;
+}
+
+#pinicon{
+    float: left;
+    height: 26.57px;
+    margin-top: 26.67px;
+    margin-left: 38.33px;
+    cursor: pointer;
+}
+
+#redbutton{
+    float: right;
+    height: 45px;
+    width: 130px;
+    background-color: #D92020;
+    border: none;
+    border-radius: 15px;
+    margin-top: 18px;
+    margin-right: 40px;
+    font-size: 22px;
+    font-family: BebasNeue;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+.about{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#puzzlebg{
+    position: relative;
+    height: 804px;
+    top: 0;
+    left: 0;
+}
+
+#biglogo{
+    position: absolute;
+    width: 375px;
+    top: 290px;
+    left: 230px;
+}
+
+#tagline{
+    position: absolute;
+    top: 222px;
+    left: 660px;
+    height: auto;
+}
+
+#backstory{
+    position: absolute;
+    top: 250px;
+    left: 660px;
+    height: auto;
+    width: 500px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+
+#getstarted{
+    position: absolute;
+    height: 45px;
+    width: 130px;
+    background: none;
+    border: 2px solid #333333;
+    border-radius: 2.5px;
+    top: 453px;
+    left: 660px;
+    font-size: 20px;
+    font-family: BebasNeue;
+    color: #333333;
+    cursor: pointer;
+}
+
+.potd{
+    float: left;
+    margin-left: 110px;
+}
+
+.subheadings{
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color: #333333;
+}
+
+.yellowbutton1{
+    float: left;
+    height: 64px;
+    width: 206px;
+    background-color: #FFDE67;
+    border: none;
+    border-radius: 2.5px; 
+    text-align: center;
+    font-size: 32px;
+    font-family: BebasNeue;
+    color: #333333;
+    cursor: pointer;
+}
+
+.texts{
+    display: inline-block;
+}
+
+#potdtext{
+    top: 800px;
+}
+
+#potdname{
+    margin-top: 10px;
+}
+
+#potddesc{
+    margin-top: 15px;
+    cursor: pointer;
+    width: 480px;
+}
+
+#potdbutton{
+    margin-top: 35px;
+}
+
+#potdmiku{ 
+    float: right;
+    height: 590px;
+    margin-left: 100px;
+}
+
+.announcements{
+    height: 320px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #D92020;
+    margin-top: 625px;
+}
+
+.banner{
+    height: 284px;
+    border-radius: 10;
+    margin-top: 18px;
+}
+
+.categories{
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.section{
+    display: inline-block;
+    height: 251px;
+    width: 215px;
+    margin: 3.5px;
+}
+
+.caticons{
+    height: 215px;
+}
+
+.cattexts{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333333;
+    left: 10px;
+    text-align: center;
+}
+
+.rectangle{
+    position: absolute;
+    height: 535px;
+    top: 900px;
+    left: 50px;
+}
+
+#exclusives{
+    top: 2195px;
+}
+
+#limited{
+    top: 2746px;
+}
+
+.sellingsection{
+    display: inline-block;
+    margin-left: 210px;
+}
+
+.sellingbox{
+    height: 375px;
+    width: 1188px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.section2{
+    display: inline-block;
+    width: 215px;
+    margin-top: 25px;
+    margin-left: 15.5px;
+}
+
+.productimg{
+    height: 215px;
+    border-radius: 5px;
+}
+
+.productname{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.pricetag{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #D92020;
+    margin-top: 20px;
+}
+
+#newpiecestitle{
+    
+    margin-top: 80px;
+}
+
+#newpiecesbox{
+    margin-top: 10px;
+}
+
+#mostviewedtitle{
+    margin-top: 20px;
+}
+
+#mostviewedbox{
+    margin-top: 10px;
+}
+
+.section3{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.originsimg{
+    height: 110px;
+}
+
+.originsname{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#originstitle{
+    margin-top: 20px;
+}
+
+#lego{
+    margin-left: 0px;
+}
+
+.joinus{
+    float: left;
+    margin-top: 100px;
+    margin-left: 110px;
+}
+
+#joinusname{
+    margin-top: 10px;
+}
+
+#joinusdesc{
+    margin-top: 15px;
+    width: 500px;
+}
+
+#joinusbutton{
+    margin-top: 35px;
+}
+
+#joinusmiku{
+    float: right;
+    height: 500px;
+    margin-top: 150px;
+}
+
+.bottombar{
+    background-color: #2C52B3;
+    height: 250px;
+    margin-top: 700px;
+}
+
+.section4{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.bottombartitle{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #8CACFF;
+}
+
+.bottombartext{
+    margin-top: 12.5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #8CACFF;
+}
+
+.bottombaricons{
+    position: absolute;
+    height: 30px;
+}
+
+.contactusname{
+    margin-top: 15px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #8CACFF;
+}
+
+.contactustext{
+    margin-left: 50px;
+}
+
+#services{
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 820px){
+    .navbar{
+        height: 10%;
+        overflow: hidden;
+    }
+
+    .input[type='text']{
+        width: 10%;
+        font-size: 50%;
+    }
+
+    .iconbar{
+        margin-left: 5%;
+    }
+
+    .about{
+        width: 120%;
+    }
+
+    .joinus{
+        margin-left: 80%;
+    }
+
+    #potdmiku{
+        size: 2%;
+    }
+
+    .categories{
+        width: 120%;
+
+        .section{
+            flex-direction: column;
+            width: 50%
+        }
+
+        .caticons{
+            height: 50%
+        }
+    }
+
+    .rectangle{
+        margin-top: 36.5%
+    }
+
+    .joinus{
+        position: relative;
+        right: 825px;
+        width: 80%;
+    }
+
+    .joinusmiku{
+        position: absolute;
+        right: 200px;
+    }
+
+    .bottombar{
+        width: 124%
+    }
+}
+
+
+
+
+

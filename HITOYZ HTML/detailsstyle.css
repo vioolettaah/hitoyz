@@ -1,0 +1,509 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+body{
+    background-color: #f9f9f9;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.bebas100black{
+    font-family: BebasNeue;
+    font-size: 100px;
+    color: #333333;
+}
+
+.bebas48black{
+    font-family: BebasNeue;
+    font-size: 48px;
+    color: #333333;
+}
+
+.bebas32black{
+    font-family: BebasNeue;
+    font-size: 32px;
+    color: #333333;
+}
+
+.bebas20black{
+    font-family: BebasNeue;
+    font-size: 20px;
+    color: #333333;
+}
+
+.helvetica32black{
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color: #333333;
+}
+
+.helvetica32gray{
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color: #7F7F7F;
+}
+
+.helvetica20black{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+.helvetica20gray{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #7F7F7F;
+}
+
+.navbar{
+    background-color: #FFDE67;
+    width: 100%;
+    top:0;
+    overflow: hidden;
+    height: 80px;
+    z-index: 100;
+}
+
+.logo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 150px;
+}
+
+.navbar input[type=text]{
+    float: left;
+    height: 47px;
+    width: 620px;
+    background-color: #F9F9F9;
+    border: 1px solid #7F7F7F;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 15px;
+    margin-left: 60px;
+    padding-left: 16px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #7F7F7F
+}
+
+.searchbutton{
+    float: left;
+    height: 50px;
+    width: 50px;
+    background-color: #2C52B3;
+    border: 1px solid #7F7F7F;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.searchicon{
+    width: 20px;
+}
+
+.iconbar{
+    margin-left: 950px;
+}
+
+#homeicon{
+    float: left;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 46px;
+    cursor: pointer;
+}
+
+#hearticon{
+    float: left;
+    height: 26.72px;
+    margin-top: 28px;
+    margin-left: 34.5px;
+    cursor: pointer;
+}
+
+#basketicon{
+    float: left;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30.5px;
+    cursor: pointer;
+}
+
+#pinicon{
+    float: left;
+    height: 26.57px;
+    margin-top: 26.67px;
+    margin-left: 38.33px;
+    cursor: pointer;
+}
+
+#redbutton{
+    float: right;
+    height: 45px;
+    width: 130px;
+    background-color: #D92020;
+    border: none;
+    border-radius: 15px;
+    margin-top: 18px;
+    margin-right: 40px;
+    font-size: 22px;
+    font-family: BebasNeue;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+
+p{
+    margin: 0;
+}
+
+#returnlink{
+    position: relative;
+    top: 40px;
+    margin-left: 60px;
+}
+
+.productimgs{
+    float: left;
+    height: 620px;
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.mainimg{
+    margin-left: 6px;
+    height: 480px;
+}
+
+.choicesimg{
+    align-items: center;
+    margin-left: 1px;
+}
+
+.variantimg{
+    display: inline-block;
+    height: 115px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.maindetails{
+    float: right;
+    height: 620px;
+    width: 805px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-right: 60px;
+}
+
+.info{
+    margin-top: 33px;
+    margin-left: 40px;
+}
+
+#producttitle{
+    margin-bottom: 10px;
+}
+
+#brand{
+    float: left;
+}
+
+#sold{
+    position: relative;
+    left: 70px;
+}
+
+#redprice{
+    color: #D92020;
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+
+#varianttitle{
+    margin-bottom: 10px;
+}
+
+.variant{
+    height: 35px;
+    width: 150px;
+    background-color: #Ffffff;
+    border: 1.5px solid #FFDE67;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #7F7F7F;
+}
+
+#quantitytitle{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.quantity{
+    position: relative;
+    right: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.qtybutton{
+    position: relative;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: #FFDE67;
+    border: 1px solid #FFDE67;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color: #7F7F7F;
+}
+
+.qtyinput{
+    position: relative;
+    text-align: center;
+    top: 2px;
+    height: 57px;
+    width: 100px;
+    border: 1px solid #FFDE67;
+    padding-left: 14px;
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color: #7F7F7F;
+}
+
+#minus{
+    left: 4px;
+    border-radius: 5px 0 0 5px;
+}
+
+#plus{
+    right: 4px;
+    border-radius: 0 5px 5px 0;
+}
+
+.button3{
+    display: inline-block;
+}
+
+.yellowbutton3{
+    display: inline-block;
+    height: 64px;
+    background-color: #ffffff;
+    border: 2px solid #FFDE67;
+    margin-top: 20px;
+    margin-right: 7.5px;
+    border-radius: 5px;
+}
+
+.buttonicon{
+    float: left;
+    height: 27.5px;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
+#addtoheart{
+    width: 225px;
+    padding-right: 13px;
+}
+
+#getnow{
+    width: 225px;
+    background-color: #FFDE67;
+}
+
+#share{
+    width: 165px;
+    padding-right: 17px;
+}
+
+#productshare{
+    margin-left: 20px;
+}
+
+.moreinfo{
+    display: inline-block;
+    height: 300px;
+    width: 1297px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 35px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#desc{
+    margin-bottom: 12px;
+}
+
+#description{
+    line-height: 35px;
+    margin-bottom: 15px;
+    width: 1200px;
+}
+
+#specs{
+    margin-bottom: 12px;
+}
+
+#specification{
+    line-height: 35px;
+}
+
+#lookingfor{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.sellingbox{
+    position: relative;
+    height: 375px;
+    width: 1194px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.section2{
+    display: inline-block;
+    width: 215px;
+    margin-top: 25px;
+    margin-left: 15.5px;
+}
+
+.productimg{
+    height: 215px;
+    border-radius: 5px;
+}
+
+.productname{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.pricetag{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #D92020;
+    margin-top: 20px;
+}   
+
+#mostviewedbox{
+    margin-left: 60px;
+}
+
+.yellowbutton4{
+    display: inline-block;
+    height: 375px;
+    width: 66px;
+    background-color: #FFDE67;
+    border: 2px solid #FFDE67;
+}
+
+.pageicon{
+    height: 50px;
+}
+
+#previous{
+    float: left;
+    margin-left: 60px;
+    border-radius: 5px 0 0 5px;
+}
+
+#next{
+    float: right;
+    margin-right: 60px;
+    border-radius: 0 5px 5px 0
+}
+
+.bottombar{
+    background-color: #2C52B3;
+    height: auto;
+    margin-top: 60px;
+}
+
+.section4{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+.bottombartitle{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #8CACFF;
+}
+
+.bottombartext{
+    margin-top: 12.5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #8CACFF;
+}
+
+.bottombaricons{
+    position: absolute;
+    height: 30px;
+}
+
+.contactusname{
+    margin-top: 15px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #8CACFF;
+}
+
+.contactustext{
+    margin-left: 50px;
+}
+
+#services{
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 768px){
+    .navbar{
+        height: 80px;
+    }
+
+    .maindetails{
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .yellowbutton3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .moreinfo{
+        width: 80%;
+        height: 120%;
+    }
+
+    #description{
+        width: 80%;
+    }
+
+    .sellingbox{
+        width: 70%;
+        overflow-y: scroll;
+    }
+}
+

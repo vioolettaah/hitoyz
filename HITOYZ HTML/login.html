@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI-Toyz Login Page</title>
+    <link rel="stylesheet" href="loginstyle.css">
+    <script src="registerscript.js" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <img src="elements/mainlogo.png" alt="" class="logo" id="logo">
+        <div class="iconbar" id="iconbar">
+            <a href="home.html">
+                <img src="elements/icons/home.png" id="homeicon">
+            </a>
+            <img src="elements/icons/heart.png" id="hearticon">
+            <a href="products.html">
+                <img src="elements/icons/products.png" id="basketicon">
+            </a>
+            <a href="locations.html">
+                <img src="elements/icons/locations.png" id="pinicon">
+            </a>
+        </div>
+        <button id="redbutton">
+            LOGIN
+        </button>
+    </div>
+    
+    <div class="title">
+        <div class="bebas100black" id="exploration">join us on<br>
+        a journey of<br>
+        explorations</div>
+    </div>
+
+    <div class="login">
+        <div class="bebas32black" id="logintitle">LOGIN</div>
+        <input type="text" placeholder="E-mail" class="logininput" id="emailinput"> <br>
+        <input type="password" placeholder="Password" class="logininput" id="passinput">
+        <div class="helvetica14gray" id="forgotpass"><b>Forgot password?</b></div>
+        <a href="home.html">
+        <button class="yellowbutton2" id="loginbutton" onclick="validate2()">
+            LOGIN
+        </button>
+        </a>
+        <hr id="divider">
+        <button class="altbutton" id="google">
+            <img src="elements/login/google.png" class="loginicons" id="googlelogo">
+            <div class="helvetica14gray" id="googletext">Continue with Google</div>
+        </button>
+        <button class="altbutton" id="facebook2">
+            <img src="elements/login/facebook.png" class="loginicons" id="fblogo">
+        </button>
+        <button class="altbutton" id="apple">
+            <img src="elements/login/apple.png" class="loginicons" id="applelogo">
+        </button>
+        <div class="helvetica14gray" id="donthave">Don't have an account?</div>
+        <a href="register.html" class="redlink" id="registerlink"><b>Register</b></a>
+    </div>
+    <div class="bottombar">
+        <div class="section4" id="services">
+            <div class="bottombartitle" id="servicestitle"><b>Services</b></div>
+            <div class="servicestext" id="servicestext">
+                <div class="bottombartext" id="support">Support</div>
+                <div class="bottombartext" id="paymentmethod">Payment Method</div>
+                <div class="bottombartext" id="trackmyorders">Track My Orders</div>
+                <div class="bottombartext" id="refund">Refund</div>
+            </div>
+        </div>
+        <div class="section4" id="problems">
+            <div class="bottombartitle" id="problemstitle"><b>Any Problems?</b></div>
+            <div class="problemstext" id="problemstext">
+                <div class="bottombartext" id="reportbugs">Report Bugs</div>
+                <div class="bottombartext" id="feedback">Feedback</div>
+            </div>
+        </div>
+        <div class="section4" id="termsofservices">
+            <div class="bottombartitle" id="termsofservicestitle"><b>Terms of Services</b></div>
+            <div class="termsofservicestext" id="termsofservicestext">
+                <div class="bottombartext" id="termsandconditions">Terms and Conditions</div>
+                <div class="bottombartext" id="privacypolicy">Privacy Policy</div>
+                <div class="bottombartext" id="returnpolicy">Return Policy</div>
+            </div>
+        </div>
+        <div class="section4" id="contactus">
+            <div class="bottombartitle" id="contactustitle"><b>Contact Us</b></div>
+            <div class="contactusgroup" id="contactustext">
+                <div class="contactusname" id="facebook">
+                <img src="elements/contacts/facebook.png" class="bottombaricons" id="facebookicon">
+                <div class="contactustext" id="facebooktext">HI-Toyz Official</div>
+            </div>
+            <div class="contactusname" id="twitter">
+                <img src="elements/contacts/twitter.png" class="bottombaricons" id="twittericon">
+                <div class="contactustext" id="twittertext">HI-Toyz Official</div>
+            </div>
+            <div class="contactusname" id="instagram">
+                <img src="elements/contacts/instagram.png" class="bottombaricons" id="instragramicon">
+                <div class="contactustext" id="instagramtext">realhitoyz</div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

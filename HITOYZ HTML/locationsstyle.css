@@ -1,0 +1,369 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+body{
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.bebas100black{
+    font-family: BebasNeue;
+    font-size: 100px;
+    color: #333333;
+}
+
+.bebas48black{
+    font-family: BebasNeue;
+    font-size: 48px;
+    color: #333333;
+}
+
+.bebas32black{
+    font-family: BebasNeue;
+    font-size: 32px;
+    color: #333333;
+}
+
+.bebas20black{
+    font-family: BebasNeue;
+    font-size: 20px;
+    color: #333333;
+}
+
+.helvetica32black{
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color: #333333;
+}
+
+.helvetica32gray{
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color: #7F7F7F;
+}
+
+.helvetica20black{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+.helvetica20gray{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #7F7F7F;
+}
+
+.navbar{
+    background-color: #FFDE67;
+    width: 100%;
+    top:0;
+    overflow: hidden;
+    height: 80px;
+    z-index: 100;
+}
+
+.logo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 150px;
+}
+
+.navbar input[type=text]{
+    float: left;
+    height: 47px;
+    width: 620px;
+    background-color: #F9F9F9;
+    border: 1px solid #7F7F7F;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 15px;
+    margin-left: 60px;
+    padding-left: 16px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #7F7F7F
+}
+
+.searchbutton{
+    float: left;
+    height: 50px;
+    width: 50px;
+    background-color: #2C52B3;
+    border: 1px solid #7F7F7F;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.searchicon{
+    width: 20px;
+}
+
+.iconbar{
+    margin-left: 950px;
+}
+
+#homeicon{
+    float: left;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 46px;
+    cursor: pointer;
+}
+
+#hearticon{
+    float: left;
+    height: 26.72px;
+    margin-top: 28px;
+    margin-left: 34.5px;
+    cursor: pointer;
+}
+
+#basketicon{
+    float: left;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30.5px;
+    cursor: pointer;
+}
+
+#pinicon{
+    float: left;
+    height: 26.57px;
+    margin-top: 26.67px;
+    margin-left: 38.33px;
+    cursor: pointer;
+}
+
+#redbutton{
+    float: right;
+    height: 45px;
+    width: 130px;
+    background-color: #D92020;
+    border: none;
+    border-radius: 15px;
+    margin-top: 18px;
+    margin-right: 40px;
+    font-size: 22px;
+    font-family: BebasNeue;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+#welcometitle{
+    display: inline-block;
+    margin-top: 32px;
+    padding-left: 120px;
+}
+
+#shortdesc{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 258px;
+    padding-right: 99px;
+}
+
+.content{
+    display: inline-block;
+    height: 615px;
+    width: 1220px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+.searchbar{
+    margin-left: 15px;
+}
+
+.locationss{
+    float: left;
+}
+
+.locationss input[type=text]{
+    float: left;
+    height: 47px;
+    width: 440px;
+    background-color: #F9F9F9;
+    border: 1px solid #7F7F7F;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 15px;
+    padding-left: 16px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #7F7F7F
+}
+
+.searchbuttons{
+    height: 50px;
+    width: 50px;
+    background-color: #2C52B3;
+    border: 1px solid #7F7F7F;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 15px;
+    
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.locations{
+    background-color: #ffffff;
+    margin-top: 0px;
+    width: 534px;
+    border: 1px solid #7F7F7F;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 14.5px;
+    padding-bottom: 14.5px;
+}
+
+p{
+    margin: 0;
+}
+
+
+.storename{
+    font-family: Bebas Neue;
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 3px;
+}
+
+.storeadd{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #7F7F7F;
+    margin-bottom: 5px;
+}
+
+.locationinfo{
+    display: inline-block;
+}
+
+.locationhourbox{
+    float: left;
+}
+
+.locationhours{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 2.8px;
+}
+
+.locationphonebox{
+    float: right;
+    margin-left: 130px;
+}
+
+.locationphone{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+.map{
+    float: right;
+    padding-top:  15px;
+    padding-right: 10px;
+    
+}
+
+#mapdetails{
+    width: 675px;
+}
+
+.locationimg{
+    height: 125px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+#location1{
+    margin-left: 10px;
+}
+
+#gallerylink{
+    float: right;
+    margin-right: 105px;
+    margin-bottom: 75px;
+}
+
+.bottombar{
+    background-color: #2C52B3;
+    height: auto;
+    margin-top: 100px;
+}
+
+.section4{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+.bottombartitle{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #8CACFF;
+}
+
+.bottombartext{
+    margin-top: 12.5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #8CACFF;
+}
+
+.bottombaricons{
+    position: absolute;
+    height: 30px;
+}
+
+.contactusname{
+    margin-top: 15px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #8CACFF;
+}
+
+.contactustext{
+    margin-left: 50px;
+}
+
+#services{
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 768px){
+    
+    .navbar{
+        height: 80px;
+    }
+
+    #shortdesc{
+        margin-top: 20px;
+    }
+
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-left: 0;
+        overflow-y: scroll;
+    }
+    .section5{
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,326 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+body{
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.bebas100black{
+    font-family: BebasNeue;
+    font-size: 100px;
+    color: #333333;
+}
+
+.bebas48black{
+    font-family: BebasNeue;
+    font-size: 48px;
+    color: #333333;
+}
+
+.bebas32black{
+    font-family: BebasNeue;
+    font-size: 32px;
+    color: #333333;
+}
+
+.bebas20black{
+    font-family: BebasNeue;
+    font-size: 20px;
+    color: #333333;
+}
+
+.helvetica32black{
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color: #333333;
+}
+
+.helvetica32gray{
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color: #7F7F7F;
+}
+
+.helvetica20black{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+.helvetica20gray{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #7F7F7F;
+}
+
+.helvetica14gray{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: #7F7F7F;
+}
+
+.navbar{
+    background-color: #FFDE67;
+    width: 100%;
+    top:0;
+    overflow: hidden;
+    height: 80px;
+    z-index: 100;
+}
+
+.logo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 150px;
+}
+
+.iconbar{
+    margin-left: 950px;
+}
+
+#homeicon{
+    float: left;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 46px;
+    cursor: pointer;
+}
+
+#hearticon{
+    float: left;
+    height: 26.72px;
+    margin-top: 28px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+#basketicon{
+    float: left;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#pinicon{
+    float: left;
+    height: 26.57px;
+    margin-top: 26.67px;
+    margin-left: 38.33px;
+    cursor: pointer;
+}
+
+#pinicon2{
+    float: left;
+    height: 26.57px;
+    margin-top: 26.67px;
+    margin-left: 38.33px;
+}
+
+#redbutton{
+    float: right;
+    height: 45px;
+    width: 130px;
+    background-color: #D92020;
+    border: none;
+    border-radius: 15px;
+    margin-top: 18px;
+    margin-right: 40px;
+    font-size: 22px;
+    font-family: BebasNeue;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+.title{
+    float: left;
+    margin-top: 210px;
+    margin-left: 115px;
+}
+
+.register{
+    height: 500px;
+    margin-top: 45px;
+    margin-left: 735px;
+}
+
+#registertitle{
+    margin-left: 466px;
+}
+
+.registerinput{
+    height: 47px;
+    width: 250px;
+    background-color: #F9F9F9;
+    border: 1.15px solid #7F7F7F;
+    border-radius: 5px;
+    margin-top: 17.5px;
+    margin-bottom: 21px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #7F7F7F
+}
+
+#lastname{
+    margin-left: 15px;
+}
+
+#dateofbirthtitle{
+    margin-top: 20px;
+}
+
+#dob{
+    position: absolute;
+    height: 50px;
+    width: 418px;
+    background-color: #F9F9F9;
+    border: 1.15px solid #7F7F7F;
+    border-radius: 5px;
+    top: 260px;
+    margin-left: 135px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #7F7F7F
+}
+
+#gendertitle{
+    margin-top: 45px;
+}
+
+input[type='radio']{
+    transform: scale(1.5);
+    background-color: #F9F9F9;
+    border: 1.15px solid #7F7F7F;
+    margin-right: 7.5px;
+}
+
+.gendergroup{
+    position: absolute;
+    top: 343px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #7F7F7F
+}
+
+#female{
+    margin-left: 30px;
+}
+
+#other{
+    margin-left: 30px;
+}
+
+.logininput{
+    height: 47px;
+    width: 537.5px;
+    background-color: #F9F9F9;
+    border: 1.15px solid #7F7F7F;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 17.5px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #7F7F7F
+}
+
+#emailinput{
+    margin-top: 35px;
+}
+
+#tos{
+    width: 22.5px;
+    height: 22.5px;
+    margin-left: 0;
+}
+
+#iagree{
+    position: relative;
+    bottom: 7px;
+    margin-left: 10px;
+}
+
+.redlink{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: #D92020;
+    cursor: pointer;
+}
+
+.yellowbutton2{
+    
+    height: 50px;
+    width: 557px;
+    background-color: #FFDE67;
+    border: none;
+    border-radius: 5px; 
+    text-align: center;
+    font-size: 32px;
+    font-family: BebasNeue;
+    color: #333333;
+    cursor: pointer;
+}
+
+#registerbutton{
+    margin-top: 18px;
+}
+
+#loginlink{
+    position: absolute;
+    top: 665px;
+    margin-left: 232.5px;
+}
+
+.bottombar{
+    background-color: #2C52B3;
+    height: auto;
+    margin-top: 100px;
+}
+
+.section4{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+.bottombartitle{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #8CACFF;
+}
+
+.bottombartext{
+    margin-top: 12.5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #8CACFF;
+}
+
+.bottombaricons{
+    position: absolute;
+    height: 30px;
+}
+
+.contactusname{
+    margin-top: 15px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #8CACFF;
+}
+
+.contactustext{
+    margin-left: 50px;
+}
+
+#services{
+    margin-left: 100px;
+}
+
